@@ -9,7 +9,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/semantic-release/commit-analyzer/issues"
+    "url": "https://github.com/esciara/semantic-release-manual-bump/issues"
   },
   "contributors": [
     "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
@@ -44,7 +44,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/commit-analyzer#readme",
+  "homepage": "https://github.com/esciara/semantic-release-manual-bump#readme",
   "keywords": [
     "changelog",
     "commit-analyzer",
@@ -81,7 +81,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/commit-analyzer.git"
+    "url": "https://github.com/esciara/semantic-release-manual-bump.git"
   },
   "scripts": {
     "lint": "xo",
@@ -97,6 +97,11 @@
       "unicorn/string-content": "off",
       "unicorn/no-array-for-each": "off"
     }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   },
   "renovate": {
     "extends": [
