@@ -1,5 +1,5 @@
 {
-  "name": "@esciara/semantic-release-manual-bump",
+  "name": "@esciara-semantic-release/manual-bump",
   "description": "semantic-release plugin to manually set next version type ",
   "version": "0.0.0-development",
   "author": "Emmanuel Sciara <emmanuel.sciara@gmail.com>",
@@ -15,9 +15,6 @@
     "Emmanuel Sciara <emmanuel.sciara@gmail.com>"
   ],
   "dependencies": {
-    "conventional-changelog-angular": "^5.0.0",
-    "conventional-commits-filter": "^2.0.0",
-    "conventional-commits-parser": "^3.2.3",
     "debug": "^4.0.0",
     "import-from": "^4.0.0",
     "lodash": "^4.17.4",
@@ -46,7 +43,7 @@
   "homepage": "https://github.com/esciara/semantic-release-manual-bump#readme",
   "keywords": [
     "changelog",
-    "commit-analyzer",
+    "manual-bump",
     "conventional-changelog",
     "conventional-commits",
     "github",
