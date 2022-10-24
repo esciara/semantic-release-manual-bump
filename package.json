@@ -1,8 +1,8 @@
 {
-  "name": "@semantic-release/commit-analyzer",
-  "description": "semantic-release plugin to analyze commits with conventional-changelog",
+  "name": "@esciara/semantic-release-manual-bump",
+  "description": "semantic-release plugin to manually set next version type ",
   "version": "0.0.0-development",
-  "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
+  "author": "Emmanuel Sciara <emmanuel.sciara@gmail.com>",
   "ava": {
     "files": [
       "test/**/*.test.js"
@@ -12,8 +12,7 @@
     "url": "https://github.com/esciara/semantic-release-manual-bump/issues"
   },
   "contributors": [
-    "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
-    "Gregor Martynus (https://twitter.com/gr2m)"
+    "Emmanuel Sciara <emmanuel.sciara@gmail.com>"
   ],
   "dependencies": {
     "conventional-changelog-angular": "^5.0.0",
