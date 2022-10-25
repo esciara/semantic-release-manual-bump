@@ -3,6 +3,8 @@ name: Test
   push:
     branches:
       - main
+      - next
+      - beta
       - renovate/**
   pull_request:
     types:
