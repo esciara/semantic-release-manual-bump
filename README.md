@@ -6,9 +6,10 @@
 [![npm next version](https://img.shields.io/npm/v/@esciara/semantic-release-manual-bump/next.svg)](https://www.npmjs.com/package/@esciara/semantic-release-manual-bump)
 [![npm beta version](https://img.shields.io/npm/v/@esciara/semantic-release-manual-bump/beta.svg)](https://www.npmjs.com/package/@esciara/semantic-release-manual-bump)
 
-| Step         | Description                                                                                                                            |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| `manualBump` | Manually bump version as `major`, `minor` or `patch` (only `patch` is supported at time of writing as this is the very first alpha release). |
+| Step               | Description                                                                                                                      |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| `verifyConditions` | Verify the presence and the validity of the manual bump configuration (set via [environment variables](#environment-variables)). |
+| `analyzeCommits`   | Determine the type of release by using the configuration (see [Configuration](#configuration)).                                  |
 
 ## Install
 
@@ -23,15 +24,16 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
 ```json
 {
   "plugins": [
-    "@esciara/semantic-release-manual-bump",
+    "@esciara-semantic-release/manual-bump",
     "@semantic-release/release-notes-generator"
   ]
 }
 ```
 
-
 ## Configuration
 
-### Options
+### Environment variables
 
-No options are available yet.
+| Variable                         | Description                                                                |
+|----------------------------------|----------------------------------------------------------------------------|
+| `SEMANTIC_RELEASE_RELEASE_TYPE`  | **Required.** The type of release to apply (`major`, `minor` or `patch`).  |
